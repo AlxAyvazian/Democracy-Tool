@@ -1,0 +1,186 @@
+Build a premium civic engagement web app called “VoiceMap Civic: Public Voice & Representative Portal.”
+
+Purpose:
+A free public-interest platform that helps people find representatives, understand issues, express where they stand, create petitions, send responsible messages, and track whether officials respond. The goal is to boost public access and prevent representatives from claiming they did not know where constituents stood on important issues.
+
+Important:
+This app should not be partisan. It should be issue-centered, transparent, and focused on public accountability.
+Use neutral civic language:
+- “constituent position”
+- “public sentiment”
+- “issue response”
+- “representative accountability”
+- “petition support”
+- “official response tracking”
+
+Design style:
+Use a premium MacOS Tahoe / Apple Liquid Glass inspired UI:
+- glassmorphism cards
+- frosted translucent navigation
+- luminous moving orbs in the background
+- glowing borders on cards/buttons
+- soft animated gradients
+- modern civic dashboard look
+- dark navy/cyan/aqua with white glass
+- subtle gold accents for government/civic sections
+- rounded cards
+- clean infographic / visual roadmap sections
+- bold title/subtitle
+- simple icons
+- professional and trustworthy
+
+Tech:
+React + Vite + Tailwind.
+Use localStorage for version 1.
+No paid APIs.
+No backend yet.
+No real representative lookup API required for version 1; use placeholder data and structure for later integration with Google Civic API or other public data.
+Make code modular.
+
+Pages:
+1. Landing Page
+2. Representative Directory
+3. Issue Voting Center
+4. Petition Builder
+5. Message Generator
+6. Accountability Dashboard
+7. Good Actions Spotlight
+8. About / Trust / Privacy
+
+Landing Page:
+Title: “Make Public Opinion Harder to Ignore”
+Subtitle: “Find representatives, organize public sentiment, create petitions, and track official responses.”
+CTA:
+- Find Representatives
+- Vote on an Issue
+- Start a Petition
+- Send a Message
+
+Feature cards:
+- Representative Directory
+- Issue Voting
+- Petition Tools
+- Response Tracking
+- Good Actions Spotlight
+
+Representative Directory:
+Use placeholder/dummy representative data for:
+- name
+- office/title
+- district
+- party optional
+- phone
+- email/contact form
+- website
+- social links
+- committees/interests
+- recent actions placeholder
+Allow filtering by:
+- federal
+- state
+- county
+- city
+- school board
+- other
+Allow searching by name or district.
+Include note: “Live representative lookup can be connected later.”
+
+Issue Voting Center:
+Create issue cards with:
+- issue title
+- short plain-language summary
+- why it matters
+- possible positions:
+  - support
+  - oppose
+  - unsure
+  - needs more information
+- public sentiment bar
+- district/locality selector placeholder
+- comment field
+- “Generate message to representative” button
+
+Important feature:
+Show a statement like:
+“Public sentiment shown here is based on submitted responses and should be interpreted as community feedback, not a scientific poll unless verified methods are added.”
+
+Petition Builder:
+Form fields:
+- Petition title
+- Target official/agency
+- Problem statement
+- Requested action
+- Evidence/links
+- Deadline or urgency
+- Supporter statement
+Generate:
+- petition text
+- short public summary
+- email version
+- social sharing version
+- city council comment version
+
+Message Generator:
+User selects:
+- issue
+- representative
+- tone:
+  - respectful
+  - urgent
+  - personal story
+  - formal
+  - short
+Generate:
+- email
+- phone script
+- public comment
+- follow-up message
+
+Accountability Dashboard:
+Include:
+- Issues with highest public engagement
+- Representatives contacted
+- Responses received
+- No response after X days
+- Public sentiment summaries
+- Petition support totals
+- Recent official actions
+- “You said / they did” comparison cards
+
+Good Actions Spotlight:
+Highlight positive actions by officials:
+- introduced helpful legislation
+- responded to constituents
+- supported public welfare
+- helped animals/health/access/etc.
+- improved transparency
+The goal is not only criticism; it also rewards good public service.
+
+About / Trust / Privacy:
+Include:
+- This platform is nonpartisan.
+- It helps organize public input.
+- It does not claim to be a scientific poll unless verification is added.
+- Users should be truthful and respectful.
+- The app should avoid harassment and spam.
+- Explain future verification options:
+  - district verification
+  - duplicate prevention
+  - transparent methodology
+  - public audit trail
+
+Components:
+- AnimatedGlassBackground
+- GlassCard
+- GlowButton
+- RepresentativeCard
+- IssueCard
+- SentimentBar
+- PetitionBuilder
+- MessageGenerator
+- AccountabilityMetricCard
+- SpotlightCard
+- StatusBadge
+
+Make it feel premium, trustworthy, clean, and powerful.
+The UI should feel like a beautiful civic command center.
